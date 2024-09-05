@@ -1,0 +1,93 @@
+.task-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .create-task {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-card h5 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .task-card p {
+    margin: 0;
+    color: #6c757d;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .edit-btn:hover {
+    color: #0056b3;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    color: #c82333;
+  }
+  
+  .modal-container {
+    padding: 20px;
+  }
+  
+  .modal-header .modal-title {
+    font-weight: bold;
+  }
+  
+  .create, .update, .cancel {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .update {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cancel {
+    background-color: #6c757d;
+    color: white;
+  }
+  
